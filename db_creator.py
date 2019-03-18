@@ -26,7 +26,6 @@ def get_data_from_api(url):
     data = req.get(url)
     return data.json()
 
-
 ######################################################################
 ###  fill the categories tables, with the categories from the API  ###
 ######################################################################
